@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import luna from './darkcat2.png';
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 function Header(){
   return (
     <header>
-      <nav>
-        <img src = {luna} width="40px" alt="This is Luna"></img>
-        <ul>
+      <nav className='nav'>
+        <img className="img" src={luna} alt="This is Luna"></img>
+        <ul className="menu">
           <li>About</li>
           <li>Pricing</li>
           <li>Contact</li>
@@ -21,7 +22,7 @@ function Header(){
 
 function Footer(){
   return (
-    <footer>Luna's Delivery Service - A Sister Cat Industries Coroporation</footer>
+    <footer className="footer">© 2023 Luna's Delivery Service - A Sister Cat Industries Coroporation</footer>
   )
 }
 
