@@ -1,17 +1,37 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import luna from './darkcat2.png';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// const page = (
+//   <div>
+//     <img src = {luna} width={250} height={250} alt="This is Luna"></img>
+//     <h1>Fun facts about Luna</h1>
+//     <ul>
+//       <li>Was born March 29, 2018</li>
+//       <li>Was born in a home where her mother was being fostered through APA!</li>
+//       <li>Has well over 100K stars on every platform</li>
+//       <li>Prefers floor scoops</li>
+//       <li>Powers thousands of enterprises, including Aurora's Italian Bistro</li>
+//     </ul>
+//   </div>
+// )
+
+function Page(){
+  return (
+    <div>
+    <img src = {luna} width={250} height={250} alt="This is Luna"></img>
+    <h1>Fun facts about Luna</h1>
+    <ul>
+      <li>Was born March 29, 2018</li>
+      <li>Was born in a home where her mother was being fostered through APA!</li>
+      <li>Has well over 100K stars on every platform</li>
+      <li>Prefers floor scoops</li>
+      <li>Powers thousands of enterprises, including Aurora's Italian Bistro</li>
+    </ul>
+  </div>
+  )
+}
+
+root.render(<Page />);
