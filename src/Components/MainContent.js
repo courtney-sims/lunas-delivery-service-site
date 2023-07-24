@@ -3,7 +3,7 @@ import React from 'react';
 export default function MainContent(){
     return (
       <div className='main'>
-        <h1>Fun facts about Luna</h1>
+        <h1 className='facts'>Fun facts about Luna</h1>
         <ul>
           <li>Was born March 29, 2018</li>
           <li>Was born in a home where her mother was being fostered through APA!</li>

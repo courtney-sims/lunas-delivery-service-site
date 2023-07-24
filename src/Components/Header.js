@@ -5,7 +5,7 @@ export default function Header(){
     return (
       <header>
         <nav className='nav'>
-          <img className="img" src={luna} alt="This is Luna"></img>
+          <img className="lunaImg" src={luna} alt="This is Luna"></img>
           <h1>Luna's Delivery Service</h1>
           <ul className="menu">
             <li>About</li>

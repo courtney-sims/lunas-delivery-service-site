@@ -1,5 +1,8 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url('specialdelivery.jpg');
+  background-position-x: left;
+  background-position-y: center;
 }
 
 .nav {
@@ -9,16 +12,22 @@ body {
   padding: 30px 25px;
 }
 
-.img {
+.lunaImg {
   width: 80px;
   margin-right: 10px;
 }
 
 .main {
-  margin-top: 50px;
-  margin-left: 28px;
+  margin-top: 30px;
+  background-color: lightgray;
+  width: 700px;
+  padding-bottom: 4px;
 }
 
+.facts {
+  padding-top: 20px;
+  margin-left: 30px;
+}
 .main > ul {
   margin-top: 30px;
   line-height: 20px;
