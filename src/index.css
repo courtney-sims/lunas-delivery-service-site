@@ -1,15 +1,43 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  background-color: lightblue;
+  padding: 30px 25px;
 }
 
 .img {
   width: 80px;
+  margin-right: 10px;
 }
+
+.main {
+  margin-top: 50px;
+  margin-left: 28px;
+}
+
+.main > ul {
+  margin-top: 30px;
+  line-height: 20px;
+}
+
+.main > ul > li {
+  padding-block: 8px;
+}
+
+.main > ul > li::marker {
+  font-size: 1.4rem;
+  color: lightblue;
+}
+
 .menu {
-  list-style: none;
   display: flex;
+  list-style: none;
+  margin-left: auto;
+  font-size: 18px;
 }
 
 .menu > li {

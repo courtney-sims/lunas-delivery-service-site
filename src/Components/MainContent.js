@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function MainContent(){
     return (
-      <div>
+      <div className='main'>
         <h1>Fun facts about Luna</h1>
         <ul>
           <li>Was born March 29, 2018</li>
