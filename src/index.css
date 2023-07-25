@@ -8,7 +8,7 @@ body {
 .nav {
   display: flex;
   align-items: center;
-  background-color: lightblue;
+  background-color: teal;
   padding: 30px 25px;
 }
 
@@ -39,7 +39,7 @@ body {
 
 .main > ul > li::marker {
   font-size: 1.4rem;
-  color: lightblue;
+  color: teal;
 }
 
 .menu {
@@ -55,6 +55,9 @@ body {
 
 .footer {
   font-style: italic;
+  color: white;
+  margin-top: 20px;
+  margin-left: 4px;
 }
 
 
