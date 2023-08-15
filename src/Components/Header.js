@@ -1,5 +1,5 @@
 import React from 'react';
-import luna from '../darkcat2.png';
+import luna from '../images/darkcat2.png';
 
 export default function Header(){
     return (

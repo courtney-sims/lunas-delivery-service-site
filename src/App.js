@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Components/Header';
 import Hero from './Components/Hero';
 import MainContent from './Components/MainContent';
+import Card from './Components/Card';
 import Footer from './Components/Footer';
 
 export default function App(){
@@ -10,6 +11,7 @@ export default function App(){
             <Header />
             <Hero />
             <MainContent />
+            <Card />
             <Footer />
         </div>
     )

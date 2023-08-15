@@ -1,8 +1,35 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url('specialdelivery.jpg');
+  background-image: url('images/specialdelivery.jpg');
   background-position-x: left;
   background-position-y: center;
+}
+
+.card {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: lightgray;
+}
+
+.card--bistroImg {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--bistroInfo {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  width: 30px;
+  padding-top: 10px;
+}
+
+.gray{
+  color: gray;
 }
 
 .nav {
