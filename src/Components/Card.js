@@ -1,19 +1,18 @@
 import React from "react"
-import Aurora from "../images/aurorasitalianbistro.png"
 import Star from "../images/star.png"
 
-export default function Card(){
+export default function Card(props){
     return (
         <div className='card'>
-            <img className='card--bistroImg' src={Aurora} alt="Chef Aurora of Aurora's Italian Bistro"></img>
+            <img className='card--bistroImg' src={props.img} alt="Chef Aurora of Aurora's Italian Bistro"></img>
             <div className='card--bistroStats'>
                 <img className='card--star' src={Star} alt="Neon star"></img>
-                <span>5.0</span>
-                <span className='gray'>(6) - </span>
-                <span className='gray'>USA</span>
+                <span>{props.rating}</span>
+                <span className='gray'>({props.numReviews}) - </span>
+                <span className='gray'>{props.location}</span>
             </div>
-                <p>World's Best Meatball from Aurora's Italian Bistro</p>
-                <p><b>From $136</b> / person</p>
+                <p>{props.name}</p>
+                <p><b>From ${props.price}</b> / person</p>
             
         </div>
     )

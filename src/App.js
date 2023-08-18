@@ -4,6 +4,7 @@ import Hero from './Components/Hero';
 import MainContent from './Components/MainContent';
 import Card from './Components/Card';
 import Footer from './Components/Footer';
+import Aurora from "./images/aurorasitalianbistro.png"
 
 export default function App(){
     return (
@@ -11,7 +12,19 @@ export default function App(){
             <Header />
             <Hero />
             <MainContent />
-            <Card />
+            <div className='cards'>
+                <Card 
+                    img={Aurora}
+                    rating="5.0"
+                    numReviews="6"
+                    location="USA"
+                    name="World's Best Meatball from Aurora's Italian Bistro"
+                    price="136" 
+                />
+                <Card />
+                <Card />
+                <Card />
+            </div>
             <Footer />
         </div>
     )
